@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'aniron';
+    src: url('anicb___.ttf');
+    }	
+@font-face {
+    font-family: 'partybusiness';
+    src: url('partybusiness.ttf');
+    }	
+@font-face {
+    font-family: 'tngani';
+    src: url('tngani.ttf');
+    }	
+    
+/*FONTS*/
+body{
+    font-size: 20px
+}
+p, ul, a, button, footer, table, form {
+    font-family: partybusiness;
+    font-size: 1em;
+}
+h3, h4{
+    font-family: partybusiness;
+}
+h1, h2, h5{
+    font-family: aniron;
+    padding-block-start: 20px;
+}
+h2{
+    font-size: 1.2em;
+}
+h2:before{
+    color: #FD6008;
+    font-family: tngani;
+    content:"ij ";
+}
+h2:after{
+    color: #FD6008;
+    font-family: tngani;
+    content:" ij";
+}
+/*COULEUR ORANGE*/
+.orange{
+    background-color: #FD6008;
+}
+.orangeFont{
+    color: #FD6008;
+}
+/*navbar white*/
+.navbar-nav{
+    color: white !important;  
+}
+.active{
+    text-decoration: underline;  
+}
+.active .wanted{
+    color: #FD6008; 
+}
+.active .wanted:before{
+    color: #FD6008;
+    font-family: tngani;
+    content:"b ";
+}
+.active .wanted:after{
+    color: #FD6008;
+    font-family: tngani;
+    content:" b";
+}
+
+/*footer white*/
+.white{
+    color: white;
+}
+/*Background light*/
+.bcgLight{
+background-image: url("bg_light.png");
+}
+/*Background dark*/
+.bcgDark{
+background-image: url("bg_dark.png");
+}
+
+/*Carousel*/
+h4{
+    font-size: 3.5em;
+}
+.carousel-item{
+    padding-top:40px;
+}
+.dark{
+   padding-bottom: 15%;
+   font-size: 1em;
+   text-align: left;
+}
+.dark h3{
+    font-size: 2em;
+}
+
+.dark p{
+    font-size: 1.5em;
+}
+/*Separation de sections*/
+hr {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid #FD6008;
+}
+
+ul{
+    list-style-type:none;
+    color: white;
+    text-decoration: none;
+    }
+/*Wanted*/
+.customPadding{
+    padding:2rem 5rem 2rem 5rem;
+}
+.wanted{
+    font-size:1em;
+    font-family: aniron;
+}
+.reward{
+    opacity: 0.8; 
+    padding: 10px;
+}
+
+.card.cardNoir{
+    background-color: noir !important;
+}
+.Name{
+    font-size: 4em
+}
+.dead{
+    text-decoration: line-through solid #FD6008;
+    opacity:0.75;
+}
+
+.reward{
+    color: black;
+}
+/*Wanted hover*/
+.mostWanted{
+    opacity: 0.75
+}
+
+.mostWanted:hover {
+    opacity: 1.0;
+}
+.mostWanted:hover .reward{
+    display: none;
+}
+.mostWanted:hover .Name{
+    text-align:center;
+    font-size: 1.5em;
+    padding-top: 80%;
+}
+
+
